@@ -14,6 +14,10 @@ ab();
 
 // 3. Ganapati
 // Q: Add your reverse string function here
+function reverse(str){
+    return str.split("").reverse().join("");
+}
+reverse("xyz");
 
 
 // 4. Shahbaz
