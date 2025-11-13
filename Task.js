@@ -1,5 +1,11 @@
 // 1. Sasmita
 // Q: Add your sum function here
+let a =5;
+let b=4;
+let ab = function(a,b){
+    console.log(a+b);
+}
+ab();
 
 
 // 2. Afnaan
