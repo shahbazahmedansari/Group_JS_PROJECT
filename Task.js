@@ -1,9 +1,9 @@
 // 1. Sasmita
 // Q: Add your sum function here
-let a =5;
-let b=4;
-let ab = function(a,b){
-    console.log(a+b);
+let a = 5;
+let b = 4;
+let ab = function (a, b) {
+    console.log(a + b);
 }
 ab();
 
@@ -14,29 +14,30 @@ ab();
 let qw = 5;
 let xy = 13;
 
-if (qw === xy ){
+if (qw === xy) {
     console.log("same");
-    
+
 }
 
-else if (qw>xy){
+else if (qw > xy) {
     console.log("qw");
-    
+
 }
 
-else{console.log("xy");
+else {
+    console.log("xy");
 }
 
 
-function max (a,b){
-    return Math.max(a,b);
+function max(a, b) {
+    return Math.max(a, b);
 }
-console.log(max(12,13));
+console.log(max(12, 13));
 
 
 // 3. Ganapati
 // Q: Add your reverse string function here
-function reverse(str){
+function reverse(str) {
     return str.split("").reverse().join("");
 }
 reverse("xyz");
