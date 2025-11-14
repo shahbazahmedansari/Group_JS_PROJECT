@@ -3,9 +3,9 @@
 let a = 5;
 let b = 4;
 let ab = function (a, b) {
-    console.log(a + b);
+    return a + b;
 };
-ab();
+console.log(ab(a, b));;
 
 
 // 2. Afnaan
@@ -55,7 +55,17 @@ console.log(isEven(12));
 
 // 5. Rahul
 // Q: Add your countVowels function here
-
+let vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+let count = 0;
+function countVowels(str) {
+    for (let char of str) {
+        if (vowel.includes(char)) {
+            count++;
+        }
+    }
+    console.log("Vowels Count : ", count);
+}
+countVowels("Team work is good for health")
 
 // Member 6: Add your factorial function here
 
